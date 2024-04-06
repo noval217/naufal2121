@@ -10,7 +10,11 @@
 
 <body>
   <div class="container">
-    <h1>ROOM ID</h1>
+    <h1></h1>
+    <label for="roomId">Room ID</label>
+    <input id="roomId" type="text" />
+
+    <p id="notification"></p>
 
     <div id="videos">
       <div id="localVideo-container">
@@ -27,7 +31,6 @@
       <button id="leaveBtn" class="btn btn-primary active">Keluar</button>
     </div>
 
-    <p id="notification"></p>
   </div>
 
   <script src="/socket.io/socket.io.js"></script>
